@@ -4,8 +4,8 @@ jobs:
   Hello-World:
     runs-on: ubuntu-lastest
     steps:
-      -run: echo "Olá Rafael, rodei de buenas!
-      -name: Pegar e copiar código com checkout@v3
+      - run: echo "Olá Rafael, rodei de buenas!
+      - name: Pegar e copiar código com checkout@v3
         uses: actions/checkout@v3
-      -name: List Files
+      - name: List Files
         run: ls ${{ github.workspace }}
